@@ -1,0 +1,33 @@
+{
+    "name": "kings",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "dotenv": "^17.4.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "scripts": {
+        "start": "webpack serve --mode development --open",
+        "build": "webpack --mode production"
+    },
+    "description": "This is a simple React project scaffolded with Webpack and Babel (no Vite).",
+    "main": "webpack.config.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@babel/core": "^7.29.0",
+        "@babel/preset-env": "^7.29.2",
+        "@babel/preset-react": "^7.28.5",
+        "babel-loader": "^10.1.1",
+        "copy-webpack-plugin": "^14.0.0",
+        "css-loader": "^7.1.4",
+        "html-webpack-plugin": "^5.6.7",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.106.2",
+        "webpack-cli": "^7.0.2",
+        "webpack-dev-server": "^5.2.3"
+    }
+}
